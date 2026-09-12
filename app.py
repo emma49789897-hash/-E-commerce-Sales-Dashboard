@@ -110,8 +110,7 @@ Keep the response clear and easy to understand.
 
         response = client.chat.completions.create(
 
-            model="llama-3.3-70b-versatile",
-
+            model="openai/gpt-oss-120b",
             messages=[
 
                 {
